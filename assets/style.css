@@ -961,7 +961,7 @@ footer p{
     }
     
     .nav{
-        justify-content: space-between;
+        width: 85%;
     }
     
     .nav ul{
@@ -970,8 +970,7 @@ footer p{
     }
 
     .nav ul li a{
-        font-size: 13px;
-        font-weight: bold;
+        font-size: 10px;
     }
 
     .nav ul li::after{
@@ -1161,9 +1160,9 @@ footer p{
 }
 
 @media(max-width: 350px){
+    
     .nav ul li a{
         font-size: 8px;
-        font-weight: bold;
     }
 
     .nav ul li::after{
