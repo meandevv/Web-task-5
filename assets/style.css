@@ -85,10 +85,11 @@ a{
 .nav{
     width: 85%;
     margin: auto;
+    background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    position: fixed;
+    position: sticky;
     top: 0;
     align-items: center;
     justify-content: space-between;
